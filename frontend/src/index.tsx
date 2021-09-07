@@ -5,6 +5,8 @@ import 'assets/css/styles.css';
 import App from './App';
 
 
+import 'bootstrap/dist/css/bootstrap.css';
+import 'assets/css/styles.css';
 
 
 ReactDOM.render(
