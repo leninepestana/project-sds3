@@ -1,5 +1,9 @@
 # Semana Spring React - SDS 4.0 :boom::raised_hands:
-# project-sds3
+### project-sds3
+
+### Sobre o projeto
+
+Projecto organizado pela DevSuperior com o título de `Semana Spring React - SDS 4.0`, do qual tive o prazer de seguir. A informação em baixo foi retirada do conteúdo do próprio sítio do projecto, de forma a ser usada como futuro suporte.
 
 Objetivos do projeto para esta aula
 - Criar projetos backend e frontend
@@ -244,4 +248,8 @@ const options = {
   - Site settings -> Domain Management: (colocar o nome que você quiser)
   - Deploys -> Trigger deploy
 
-**END**
+# Autor
+
+Lenine Ferrer de Pestana
+
+Email: leninepestana@gmail.com
