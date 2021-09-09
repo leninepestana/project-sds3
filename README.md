@@ -269,11 +269,10 @@ https://github.com/devsuperior/sds4/raw/main/_assets/dados.xlsx
 
 ### Passo 1: configuração de segurança
 
-O CORS (Cross-origin Resource Sharing) é um mecanismo utilizado pelos navegadores para compartilhar recursos entre diferentes origens. O CORS é uma especificação do W3C e faz uso de headers do HTTP para informar aos navegadores se determinado recurso pode ser ou não acessado.
+> O CORS (Cross-origin Resource Sharing) é um mecanismo utilizado pelos navegadores para compartilhar recursos entre diferentes origens. O CORS é uma especificação do W3C e faz uso de headers do HTTP para informar aos navegadores se determinado recurso pode ser ou não acessado.
+É um recurso que protege a nossa aplicação de ser acessada por uma outra aplicação que esteja em um outro domínio.
 
-É um recurso que protege a nossa aplicação em ser acessada por outra aplicação que esteja em outro domínio
-
-Uma aplicação que está hospedada em determinado domínio não deve acessar a um backend de uma aplicação em outro domínio. No nosso caso temos que permitir isso porque iremos implementar o backend no Heroku e o frontend no Netlify, o que representam domínios diferentes e neste caso precisamos que a nossa aplicação no Netlify consiga acessar o backend do Heroku. Para isso iremos fazer uma configuração no backend para permitir esse CORS
+> Uma aplicação que está hospedada em determinado domínio não deve acessar a um backend de uma aplicação em outro domínio. No nosso caso temos que permitir que isso aconteça, uma vez que iremos implementar o backend no Heroku e o frontend no Netlify, o que representam domínios diferentes e neste caso precisamos que a nossa aplicação no Netlify consiga acessar o backend do Heroku. Para isso iremos fazer uma configuração no backend para permitir esse CORS.
 
 ```bash
 @Configuration
@@ -309,6 +308,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
 
 ### Passo 2: criar as entidades e o seed do banco
+
+Iniciando o trabalho com o modelo de dados, iremos usar o ficheiro
 
 Modelo conceitual
 
