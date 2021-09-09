@@ -269,6 +269,12 @@ https://github.com/devsuperior/sds4/raw/main/_assets/dados.xlsx
 
 ### Passo 1: configuração de segurança
 
+O CORS (Cross-origin Resource Sharing) é um mecanismo utilizado pelos navegadores para compartilhar recursos entre diferentes origens. O CORS é uma especificação do W3C e faz uso de headers do HTTP para informar aos navegadores se determinado recurso pode ser ou não acessado.
+
+É um recurso que protege a nossa aplicação em ser acessada por outra aplicação que esteja em outro domínio
+
+Uma aplicação que está hospedada em determinado domínio não deve acessar a um backend de uma aplicação em outro domínio. No nosso caso temos que permitir isso porque iremos implementar o backend no Heroku e o frontend no Netlify, o que representam dmínios diferentes e neste caso precisamos que a nossa aplicação no Netlify consiga acessar o backend do Heroku. Para isso iremos fazer uma configuração no backend para permitir esse CORS
+
 ```bash
 @Configuration
 @EnableWebSecurity
@@ -299,6 +305,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 }
 ```
 - **COMMIT: Security config**
+
+
 
 ### Passo 2: criar as entidades e o seed do banco
 
