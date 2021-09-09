@@ -512,6 +512,7 @@ INSERT INTO tb_sales(seller_id,visited,deals,amount,date) VALUES (2,71,18,6436.0
 INSERT INTO tb_sales(seller_id,visited,deals,amount,date) VALUES (3,78,60,6723.0,'2019-10-07');
 ```
 
+- COMMIT: Domain model, database seed
 
 # Autor
 
