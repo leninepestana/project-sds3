@@ -298,7 +298,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	}
 }
 ```
-- COMMIT: Security config
+- **COMMIT: Security config**
 
 ### Passo 2: criar as entidades e o seed do banco
 
