@@ -312,6 +312,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
 Modelo conceitual
 
+![sds3-mc](https://user-images.githubusercontent.com/22635013/132658636-01831d53-0320-40b0-bf46-445cd5c9f2ae.png)
+
 application.properties
 
 ```bash
