@@ -273,7 +273,7 @@ O CORS (Cross-origin Resource Sharing) é um mecanismo utilizado pelos navegador
 
 É um recurso que protege a nossa aplicação em ser acessada por outra aplicação que esteja em outro domínio
 
-Uma aplicação que está hospedada em determinado domínio não deve acessar a um backend de uma aplicação em outro domínio. No nosso caso temos que permitir isso porque iremos implementar o backend no Heroku e o frontend no Netlify, o que representam dmínios diferentes e neste caso precisamos que a nossa aplicação no Netlify consiga acessar o backend do Heroku. Para isso iremos fazer uma configuração no backend para permitir esse CORS
+Uma aplicação que está hospedada em determinado domínio não deve acessar a um backend de uma aplicação em outro domínio. No nosso caso temos que permitir isso porque iremos implementar o backend no Heroku e o frontend no Netlify, o que representam domínios diferentes e neste caso precisamos que a nossa aplicação no Netlify consiga acessar o backend do Heroku. Para isso iremos fazer uma configuração no backend para permitir esse CORS
 
 ```bash
 @Configuration
