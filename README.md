@@ -514,6 +514,20 @@ INSERT INTO tb_sales(seller_id,visited,deals,amount,date) VALUES (3,78,60,6723.0
 
 - **COMMIT: Domain model, database seed**
 
+### Passo 3: Estruturar o projeto em camadas
+
+**Padrão camadas adotado**
+
+![camadas](https://user-images.githubusercontent.com/22635013/132674131-279a89c7-8ca4-4a47-a0d4-49657da0eefd.png)
+
+- Criar repositories
+- Criar DTO's
+- Criar service
+- Criar controller
+- **COMMIT: Layers**
+
+
+
 # Autor
 
 Lenine Ferrer de Pestana
