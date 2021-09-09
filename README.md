@@ -248,6 +248,27 @@ const options = {
   - Site settings -> Domain Management: (colocar o nome que você quiser)
   - Deploys -> Trigger deploy
 
+  
+  # Semana Spring React - Episódio 2 :boom::raised_hands:
+
+## Objetivos do projeto para esta aula
+
+- Implementar o back end
+
+    - Modelo de domínio
+    - Estruturar o back end no padrão camadas
+    - Consulta paginada de vendas
+    - Consultas agrupadas para gráficos
+    - Implantação na nuvem
+
+## Checklist
+
+**Entendendo o modelo de dados**
+
+https://github.com/devsuperior/sds4/raw/main/_assets/dados.xlsx
+
+**Passo 1: configuração de segurança**
+
 # Autor
 
 Lenine Ferrer de Pestana
