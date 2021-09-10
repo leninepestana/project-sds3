@@ -533,7 +533,11 @@ INSERT INTO tb_sales(seller_id,visited,deals,amount,date) VALUES (3,78,60,6723.0
 - Evitando interações repetid
 - **COMMIT: Pagination**
 
+### Passo 5: Buscas agrupadas (GROUP BY)
 
+- Total de vendas por vendedor
+- Taxa de sucesso por vendedor
+- **COMMIT: Group by search**
 
 # Autor
 
