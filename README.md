@@ -539,6 +539,55 @@ INSERT INTO tb_sales(seller_id,visited,deals,amount,date) VALUES (3,78,60,6723.0
 - Taxa de sucesso por vendedor
 - **COMMIT: Group by search**
 
+### Passo 6: Validação no Postgres local
+
+- Criar três perfis de projeto: test, dev, prod
+- Gerar script SQL no perfil dev
+- Testar projeto no banco Postgres local
+
+**application.properties**
+
+```bash
+spring.profiles.active=test
+
+spring.jpa.open-in-view=false
+```
+
+**application-dev.properties**
+
+```bash
+#spring.jpa.properties.javax.persistence.schema-generation.create-source=metadata
+#spring.jpa.properties.javax.persistence.schema-generation.scripts.action=create
+#spring.jpa.properties.javax.persistence.schema-generation.scripts.create-target=create.sql
+#spring.jpa.properties.hibernate.hbm2ddl.delimiter=;
+
+spring.datasource.url=jdbc:postgresql://localhost:5432/dsvendas
+spring.datasource.username=postgres
+spring.datasource.password=1234567
+
+spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
+spring.jpa.hibernate.ddl-auto=none
+```
+**application-prod.properties**
+
+```bash
+spring.datasource.url=${DATABASE_URL}
+```
+**application.properties**
+
+```bash
+spring.profiles.active=${APP_PROFILE:test}
+
+spring.jpa.open-in-view=false
+```
+**system.properties**
+
+```bash
+java.runtime.version=11
+```
+
+- **COMMIT: First homolog**
+
 # Autor
 
 Lenine Ferrer de Pestana
