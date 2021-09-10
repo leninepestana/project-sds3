@@ -526,6 +526,13 @@ INSERT INTO tb_sales(seller_id,visited,deals,amount,date) VALUES (3,78,60,6723.0
 - Criar controller
 - **COMMIT: Layers**
 
+### Passo 4: Busca paginada de vendas
+
+- Pageable
+- page, size, sort
+- Evitando interações repetid
+- **COMMIT: Pagination**
+
 
 
 # Autor
