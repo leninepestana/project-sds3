@@ -604,6 +604,38 @@ git remote -v
 git subtree push --prefix backend heroku main
 ```
 
+  # Semana Spring React - Episódio 3 :boom::raised_hands:
+
+  - Objetivos do projeto para esta aula
+
+- Integrar back end e front end
+- Três pilares do React
+    - Componentes
+    - Props
+    - Estado
+- React Hooks
+    - useState
+    - useEffect
+- Libs
+    - React Router DOM
+    - Axios
+
+## Checklist
+
+### Passo 1: Rotas
+
+- Instalar React Router DOM
+
+```bash
+yarn add react-router-dom
+
+yarn add @types/react-router-dom -D
+```
+
+- Criar páginas Home e Dashboard
+- Criar arquivo de rotas `Routes.tsx`
+- **COMMIT: Routes**
+
 # Autor
 
 Lenine Ferrer de Pestana
