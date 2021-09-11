@@ -606,7 +606,7 @@ git subtree push --prefix backend heroku main
 
   # Semana Spring React - Episódio 3 :boom::raised_hands:
 
-  - Objetivos do projeto para esta aula
+## Objetivos do projeto para esta aula
 
 - Integrar back end e front end
 - Três pilares do React
