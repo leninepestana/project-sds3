@@ -1,9 +1,11 @@
-# Semana Spring React - SDS 4.0 :boom::raised_hands:
+# Semana Spring React - SDS 4.0 :sweat_drops:
 ### project-sds3
 
 ### Sobre o projeto
 
 Projecto organizado pela DevSuperior com o título de `Semana Spring React - SDS 4.0`, do qual tive o prazer de seguir. A informação em baixo foi retirada do conteúdo do próprio sítio do projecto, de forma a ser usada como futuro suporte.
+
+ # Semana Spring React - Episódio 2 :boom::raised_hands:
 
 Objetivos do projeto para esta aula
 - Criar projetos backend e frontend
