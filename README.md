@@ -745,6 +745,9 @@ Argumentos que um componente React pode receber
 ```
 - **COMMIT: Pagination**
 
+### Projecto Final
+
+https://dashvendas-leninepestana.netlify.app/
 
 # Autor
 
