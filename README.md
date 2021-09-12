@@ -747,7 +747,7 @@ Argumentos que um componente React pode receber
 
 ### Projecto Final
 
-[go](https://dashvendas-leninepestana.netlify.app/){:target="_blank"}.
+https://dashvendas-leninepestana.netlify.app/
 
 # Autor
 
